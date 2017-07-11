@@ -7,7 +7,9 @@ dist: trusty
 
 install: "pip install -r requirements.txt"
 
-before_script: chmod 755 test/test.py
+before_script: 
+  - chmod 755 test/test.py
+  - 
 
 script: test/test.py
 

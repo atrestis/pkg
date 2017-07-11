@@ -1,3 +1,3 @@
+#!/usr/bin/python
 from app import hello
-#from library import *
 print("test")
