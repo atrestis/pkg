@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.6"
+
+sudo: false
+dist: trusty
+
+before install
+
+install: 
+  - "pip install -r requirements.txt"
+
+script: pytest test/test.py
+
+notifications: 
+  email: false

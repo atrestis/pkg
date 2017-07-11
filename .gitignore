@@ -1,0 +1,20 @@
+# Ignore following DIRs #
+#########################
+
+__pycache__/
+build/
+Include/
+Lib/
+Scripts/
+tcl/
+
+
+# Other system generated files #
+################################
+
+.cache
+.coverage
+*.egg-info
+build
+dist
+*.json
