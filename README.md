@@ -1,6 +1,6 @@
 # Learning python packages and travis-CI!
 
-[![Build Status](https://travis-ci.org/atrestis/pkg.svg?branch=master)](https://travis-ci.org/atrestis/pkg)
+[![Build Status](https://travis-ci.org/atrestis/pkg.svg?branch=master)](https://travis-ci.org/atrestis/pkg) 
 [![Discord Contribution](https://img.shields.io/badge/Discord-Contribution-blue.svg?branch=master)](https://discord.gg/36ZDpPY)
 
 ## What is this repo about?
