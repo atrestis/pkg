@@ -8,10 +8,12 @@ dist: trusty
 install: "pip install -r requirements.txt"
 
 before_script: 
-  - chmod 755 test/test.py
-  - 
+ # - chmod 755 test/test.py
+  - chmod 755 app/hello.py
 
-script: test/test.py
+script: 
+ # - test/test.py
+  - app/hello.py
 
 notifications: 
   email: false
